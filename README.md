@@ -6,6 +6,10 @@ A list of  useful Rust crates.
 - [thiserror](https://github.com/dtolnay/thiserror) in your lib.
 - [anyhow](https://github.com/dtolnay/anyhow) in your app.
 
+## Batteries (Not included)
+
+- [chrono](https://github.com/chronotope/chrono) "It aims to be a feature-complete superset of the time library." If you wonder how to get something like a 'Date' or an 'Instant' from "2021-08-21" Check this crate.
+
 ## CLI
 
 For argument parsing:
