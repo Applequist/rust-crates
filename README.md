@@ -26,3 +26,6 @@ For command line output:
 
 For full blown TUI:
 - [tui-rs](https://github.com/fdehau/tui-rs)
+
+To test CLI:
+- [assert_cmd](https://github.com/assert-rs/assert_cmd) 
