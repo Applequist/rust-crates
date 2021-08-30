@@ -13,14 +13,16 @@ A list of  useful Rust crates.
 ## CLI
 
 For argument parsing:
-- [clap](https://github.com/clap-rs/clap) 
+- [clap](https://github.com/clap-rs/clap) helps parsing command line arguments but also generate help message and man pages.
 - [structopt](https://github.com/TeXitoi/structopt) "Parse command line arguments by defining a struct. It combines clap with custom derive."
+  Although, it looks like clap v3 will deprecate structopt.
 
 To indicate progress:
 - [indicatif](https://github.com/mitsuhiko/indicatif)
 
-For simple output styling:
-- [ansi-term](https://github.com/ogham/rust-ansi-term)
+For command line output:
+- [atty]() determines whether a program is "talking" to a tty (for human) or not (for a machine) and allows to format its output accordingly.
+- [ansi-term](https://github.com/ogham/rust-ansi-term) to style tty output.
 
 For full blown TUI:
 - [tui-rs](https://github.com/fdehau/tui-rs)
